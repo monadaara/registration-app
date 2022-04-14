@@ -1,0 +1,13 @@
+.alert-success {
+  background-color: #0ad90a;
+  color: #fff;
+  padding: 8px;
+}
+.alert-error {
+  background-color: #f04d24;
+  color: #fff;
+  padding: 8px;
+}
+.remove-student {
+  cursor: pointer;
+}
