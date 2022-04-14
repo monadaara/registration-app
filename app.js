@@ -68,6 +68,6 @@ const handleFormSubmit = (event) => {
 
 document.getElementById("form").addEventListener("submit", handleFormSubmit);
 document.querySelector("#all-students").addEventListener("click", (event) => {
-  comands = new Comands();
+  const comands = new Comands();
   comands.deleteStudent(event.target);
 });
